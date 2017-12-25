@@ -1,4 +1,4 @@
-module app.controller.index;
+﻿module app.controller.index;
 
 import hunt;
 
@@ -9,6 +9,6 @@ class IndexController : Controller
     @Action
     void index()
     {
-        response.html("<h1>Welcome to use the powerful Hunt framework!</h1>");
+        response.html("<h1>hunt 是一个使用D语言写的开源Web应用框架,使用最少的配置</h1>");
     }
 }
